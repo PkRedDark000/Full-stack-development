@@ -1,0 +1,8 @@
+ctrl + sift + n           for new folder 
+ctrl + o and ctrl + k     open the folder in visual studio code
+create html file          (filename.html)
+basic structure            step by step 
+sift + 1                   basic structure
+UTF-8                      unicode tranfoinons formet - 8bits
+
+
