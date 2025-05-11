@@ -4,6 +4,8 @@ Resources for Developers,
 by Developers  enter mdn in chrome
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
 
+exetions type MIME_types
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types
 
 hr = line
 br = brack line
