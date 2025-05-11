@@ -1,1 +1,7 @@
 w3c validator website  >>> https://validator.w3.org/
+
+hr = line
+br = brack line
+ 
+ html ntt
+ &nbsp; = &non breaking space;

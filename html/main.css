@@ -2,6 +2,15 @@ html{
     font-size: 22px;
 }
 body{
-            color: white;
+            color: rgb(48, 255, 21);
             background-color: black;
         }
+h1{
+    color: #ee0808;
+}
+h2{
+    color: #ee0808;
+}
+h3{
+    color: #ee0808;
+}
