@@ -1,5 +1,10 @@
 w3c validator website  >>> https://validator.w3.org/
 
+Resources for Developers,
+by Developers  enter mdn in chrome
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+
+
 hr = line
 br = brack line
  
