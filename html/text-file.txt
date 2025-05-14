@@ -7,6 +7,16 @@ https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_
 exetions type MIME_types
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types
 
+website list
+1. lorem ip sum [plece holder without images] 
+2. unsplash   [free images download no copy rights]
+3. pexels     [free images download no copy rights]
+4. gratisography  [free images download no copy rights]
+5. pixabay     [free images download no copy rights]
+6. irfan view  [image edit for size etc...] 
+7. canva  [image edit for size etc...] 
+8. tinypng  [smart webp, PNG and JPEG compression image size]
+9. 
 hr = line
 br = brack line
  
