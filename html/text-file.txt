@@ -22,3 +22,8 @@ br = brack line
  
  html ntt
  &nbsp; = &non breaking space;
+
+10. very import in html tags 
+ semantic tags 
+ html semantic cheat sheet "website scarch"
+ 
