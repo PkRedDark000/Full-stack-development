@@ -17,11 +17,15 @@ h3{
 a{
    color: rgb(48, 255, 21); 
 }
-#login{
-    
-    color: rgb(13, 115, 204);   
+#login{   
     background-color: aquamarine;
-    box-sizing: border-box;
-    align-self: start; 
+    padding: 50px;
+    border-radius: 10%;
+    width: 8cm;
+    height: 6cm;   
+}
+#h1_login{
+    color: rgb(13, 115, 204);
     
+
 }
