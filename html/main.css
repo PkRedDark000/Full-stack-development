@@ -2,30 +2,18 @@ html{
     font-size: 22px;
 }
 body{
-            color: rgb(48, 255, 21);
-            background-color: black;
-        }
+    color: rgb(48, 255, 21);
+    background-color: black;
+    }
 h1{
     color: #ee0808;
-}
+    }
 h2{
     color: #ee0808;
-}
+    }
 h3{
     color: #ee0808;
-}
+    }
 a{
    color: rgb(48, 255, 21); 
-}
-#login{   
-    background-color: aquamarine;
-    padding: 50px;
-    border-radius: 10%;
-    width: 8cm;
-    height: 6cm;   
-}
-#h1_login{
-    color: rgb(13, 115, 204);
-    
-
-}
+    }
