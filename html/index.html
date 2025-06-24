@@ -107,19 +107,28 @@
                     <p>Table Formet</p>
                 </section>
                 <table>
+                    <caption>
+                        My daily schedule
+                    </caption >
                     <thead>
                         <tr>
-                            <th>
+                            <th id="shift" scope="col">
+                               Shift
+                            </th>
+                            <th id="time" scope="col">
                                 Time
                             </th>
-                            <th>
+                            <th id="activity" scope="col">
                                 Activity
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>
+                            <th id="morning" >
+                                Morning
+                            </th>
+                            <td headers="time morning">
                                 <time datetime="08:00">8am</time>
                                 -
                                 <time datetime="12:00">12am</time>
@@ -129,7 +138,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <th id="break" >
+                                Break
+                            </th>
+                            <td headers="time break" >
                                 <time datetime="12:00">12pm</time>
                                 -
                                 <time datetime="13:00">1pm</time>
@@ -139,7 +151,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <th id="afternon" >
+                                Afternoon
+                            </th>
+                            <td headers="time afternon" >
                                 <time datetime="13:00">1pm</time>
                                 -
                                 <time datetime="15:00">3pm</time>
@@ -149,7 +164,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <th id="evening" >
+                                Evening
+                            </th>
+                            <td headers="time evening" >
                                 <time datetime="15:00">3pm</time>
                                 -
                                 <time datetime="20:00">8pm</time>
@@ -159,7 +177,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td rowspan="2">
+                            <th rowspan="2" id="night" >
+                                Night
+                            </th>
+                            <td rowspan="2" headers="time night" >
                                 All other time
                             </td>
                             <td>
@@ -170,6 +191,13 @@
                             <td>Sleep</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                Eat, sleep and code everyday
+                            </td>
+                        </tr>
+                    </tfoot>
                 </table>  
         </article>
     </main>    
