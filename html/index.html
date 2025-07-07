@@ -233,53 +233,55 @@
                     our commitment to you matters
                 </h3>
                     <form action="index.html" method="get">
-                        <table>
-                            <tr>
-                                <td>
-                                    <label for="firstname">
-                                        First Name:
-                                    </label>
-                                </td>
-                                <td>
-                                    <input type="text" name="Firstname" id="firstname" placeholder="First Name" autocomplete="on">
-                                </td>
-                            </tr>
-                            <tr>    
-                                <td>
-                                    <label for="lastname" >
-                                        Last Name:
-                                    </label>
-                                </td>
-                                <td>
-                                    <input type="text" name="Lastname" id="lastname" placeholder="Last Name" autocomplete="on" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="email" >
-                                        Email:
-                                    </label>
-                                </td>
-                                <td>
-                                    <input type="email" name="Email" id="email" placeholder="Id" autocomplete="on" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="number" >
-                                        Phone:
-                                    </label>
-                                </td>
-                                <td>
-                                    <input type="number" name="Number" id="number" placeholder="Number" autocomplete="on" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <button type="submit">submit</button>
-                                </td>
-                            </tr>
-                        </table>    
+                        <p>
+                            <label for="firstname">
+                                First Name:
+                            </label>
+                            <input type="text" name="Firstname" id="firstname" placeholder="First Name" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="lastname" >
+                                Last Name:
+                            </label>
+                            <input type="text" name="Lastname" id="lastname" placeholder="Last Name" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="email" >
+                                Email:
+                            </label>
+                            <input type="email" name="Email" id="email" placeholder="Id" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="age" >
+                                Age:
+                            </label>
+                            <input type="number" name="age" id="age" placeholder="Age" autocomplete="on" required min="18" max="65" step="2">
+                        </p>
+                        <p>   
+                            <label for="number" >
+                                Phone No:
+                            </label>
+                            <input type="tel" name="Number" id="number" placeholder="91 55555 66666" autocomplete="on" required pattern="[0-9]{5}[0-9]{5}">
+                        </p>
+                        <p>
+                            <label for="content">
+                                Issus:
+                            </label>
+                            <select name="content" id="content" >
+                               <option value="login Issus">
+                                Login Issus
+                               </option>
+                               <option value="softwere Issus">
+                                Softwere Issus
+                               </option>
+                               <option value="other">
+                                Other Issus
+                               </option> 
+                            </select>
+                        </p>
+                        <p>
+                            <button type="submit">submit</button> 
+                        </p>  
                     </form>
                 </article>                 
             <nav>
