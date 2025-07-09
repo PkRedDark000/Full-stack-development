@@ -17,7 +17,7 @@ h3{
 a{
    color: rgb(48, 255, 21); 
     }
-table, tr, th, td, caption,button{
+table, tr, th, td, caption{
 border: 1px solid #eee;
 font-family: 'Courier New', Courier, monospace;
 border-collapse: collapse;

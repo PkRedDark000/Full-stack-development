@@ -225,63 +225,111 @@
         </main>    
         <footer>
             <hr>
-                <article>
+                <article id="Support">
                     <h2>
                         Get Support
                     </h2>
                 <h3>
                     our commitment to you matters
                 </h3>
-                    <form action="index.html" method="get">
-                        <p>
-                            <label for="firstname">
-                                First Name:
+                    <form action="http://127.0.0.1:3000/html/index.html" method="post">
+                        <fieldset>
+                            <legend> 
+                                Get Support Form
+                            </legend>
+                            <p>
+                                <label for="firstname">
+                                    First Name:
+                                </label>
+                                <input type="text" name="Firstname" id="firstname" placeholder="First Name" autocomplete="on" required>
+                            </p>
+                            <p>
+                                <label for="lastname" >
+                                    Last Name:
+                                </label>
+                                <input type="text" name="Lastname" id="lastname" placeholder="Last Name" autocomplete="on" required>
+                            </p>
+                            <p>
+                                <label for="email" >
+                                    Email:
+                                </label>
+                                <input type="email" name="Email" id="email" placeholder="Id" autocomplete="on" required >
+                            </p>
+                            <p>
+                                <label for="age" >
+                                    Age:
+                                </label>
+                                <input type="number" name="age" id="age" placeholder="Age" autocomplete="on" required min="18" max="65" step="2">
+                            </p>
+                            <p>   
+                                <label for="number" >
+                                    Phone No:
+                                </label>
+                                <input type="tel" name="Number" id="number" placeholder="91 55555 66666" autocomplete="on" required pattern="[0-9]{5}[0-9]{5}">
+                            </p>
+                            <p>
+                                <label for="content">
+                                    Issus:
+                                </label>
+                                <input name="content" id="content"  type="text" list="content-list">
+                                <datalist id="content-list">    
+                                        <option value="Login Issus"></option>
+                                        <option value="Password Forget Issus"></option>
+                                        <option value="Softwere Issus"></option>
+                                        <option value="Forntend Issus"></option>
+                                        <option value="Backend Issus"></option>
+                                        <option value="Other"></option>    
+                                </datalist>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="Support" id="test" value="Support">
+                                <label for="test">Support</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="Support" id="Other" value="Other">
+                                <label for="Other">Other</label>
+                            </p>
+                            <label for="message">
+                                Your message
                             </label>
-                            <input type="text" name="Firstname" id="firstname" placeholder="First Name" autocomplete="on" required>
-                        </p>
-                        <p>
-                            <label for="lastname" >
-                                Last Name:
+                            <p>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder=" Enter Your message"></textarea>
+                            </p>
+                            <p>
+                                <button type="submit">submit</button> <button type="reset">reset</button> 
+                            </p>    
+                        </fieldset>
+                        <!-- <fieldset>
+                            <p>
+                                <input type="radio" name="Support" id="test" value="Support">
+                                <label for="test">Support</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Support" id="Other" value="Other">
+                                <label for="Other">Other</label>
+                            </p>
+                        </fieldset> -->
+                        <!-- <fieldset>
+                            <p>
+                                <input type="checkbox" name="Support" id="test" value="Support">
+                                <label for="test">Support</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="Support" id="Other" value="Other">
+                                <label for="Other">Other</label>
+                            </p>
+                        </fieldset> -->
+                        <!-- <fieldset>
+                            <legend>
+                                send me a note
+                            </legend>
+                            <label for="message">
+                                Your message
                             </label>
-                            <input type="text" name="Lastname" id="lastname" placeholder="Last Name" autocomplete="on" required>
-                        </p>
-                        <p>
-                            <label for="email" >
-                                Email:
-                            </label>
-                            <input type="email" name="Email" id="email" placeholder="Id" autocomplete="on" required >
-                        </p>
-                        <p>
-                            <label for="age" >
-                                Age:
-                            </label>
-                            <input type="number" name="age" id="age" placeholder="Age" autocomplete="on" required min="18" max="65" step="2">
-                        </p>
-                        <p>   
-                            <label for="number" >
-                                Phone No:
-                            </label>
-                            <input type="tel" name="Number" id="number" placeholder="91 55555 66666" autocomplete="on" required pattern="[0-9]{5}[0-9]{5}">
-                        </p>
-                        <p>
-                            <label for="content">
-                                Issus:
-                            </label>
-                            <select name="content" id="content" >
-                               <option value="login Issus">
-                                Login Issus
-                               </option>
-                               <option value="softwere Issus">
-                                Softwere Issus
-                               </option>
-                               <option value="other">
-                                Other Issus
-                               </option> 
-                            </select>
-                        </p>
-                        <p>
-                            <button type="submit">submit</button> 
-                        </p>  
+                            <p>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder=" Enter Your message"></textarea>
+                            </p>
+                        </fieldset> -->
                     </form>
                 </article>                 
             <nav>
