@@ -7,8 +7,9 @@ a{
     color: black;
 }
 body{
+    font-family:monospace ;
     font-size: 24px;
-    border: 20px solid rgb(228, 48, 245);
+    border: 2px solid rgb(228, 48, 245);
 }
 p span{
     color: rgb(43, 226, 52);
@@ -16,7 +17,4 @@ p span{
 .balock{
     color: #000;
 }
-*{
-    font-family: monospace;
-    
-}
+
