@@ -1,0 +1,2 @@
+developer website link : https://developer.mozilla.org/en-US/docs/Web/CSS
+specificity calculater link : https://specificity.keegan.st
